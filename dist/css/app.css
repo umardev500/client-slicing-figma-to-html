@@ -280,7 +280,7 @@ body {
   border-bottom: 2px solid #EA0A0A;
 }
 .secondary-navbar:hover, .secondary-navbar:focus {
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 .banner {

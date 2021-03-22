@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="assets/owl/assets/owl.theme.default.min.css" />
   <!-- App theme -->
   <link rel="stylesheet" href="dist/css/app.css" />
+  <!-- Ovs -->
+  <link rel="stylesheet" href="assets/ovs/css/OverlayScrollbars.min.css">
+  <!-- Google font -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&display=swap" rel="stylesheet">
 </head>
@@ -78,7 +81,7 @@
   <!-- ./banner -->
 
   <!-- Secondary navbar -->
-  <nav class="secondary-navbar my-navbar">
+  <nav class="secondary-navbar my-navbar" id="secondaryNav">
     <ul class="menu d-flex flex-grow-1 justify-content-center">
       <li><a href="#" class="link active">Home</a></li>
       <li><a href="#" class="link">Statistics</a></li>
@@ -327,6 +330,7 @@
 
   <!-- <div class="sidebar-overlay"></div> -->
 
+  <script src="assets/ovs/js/OverlayScrollbars.min.js"></script>
   <script src="assets/splide-2.4.21/dist/js/splide.min.js"></script>
   <script src="dist/js/sidebar.js"></script>
   <script>
@@ -343,6 +347,14 @@
         },
       },
     }).mount();
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      //The first argument are the elements to which the plugin shall be initialized
+      //The second argument has to be at least a empty object or a object with your desired options
+      OverlayScrollbars(document.querySelector('body'), { });
+  });
   </script>
 </body>
 

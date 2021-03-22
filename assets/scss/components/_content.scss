@@ -1,0 +1,13 @@
+.content {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .content-title {
+        line-height: 60px;
+    }
+
+    @media (min-width: 992px) {
+        width: 1113px;
+    }
+}

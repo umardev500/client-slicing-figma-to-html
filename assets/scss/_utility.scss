@@ -1,0 +1,112 @@
+.my-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pt-41px {
+    padding-top: 41px;
+}
+
+.pt-50px {
+    padding-top: 50px;
+}
+
+.pb-50px {
+    padding-bottom: 50px;
+}
+
+.pl-10px {
+    padding-left: 10px;
+}
+
+.pr-10px {
+    padding-right: 10px;
+}
+
+@media (min-width: 992px) {
+    .pl-lg-25px {
+        padding-left: 25px;
+    }
+
+    .pr-lg-25px {
+        padding-right: 25px;
+    }
+}
+
+// Margin
+.mt-19px {
+    margin-top: 19px;
+}
+
+.mt-30px {
+    margin-top: 30px;
+}
+
+.mt-122px {
+    margin-top: 122px;
+}
+
+.mt-51px {
+    margin-top: 51px;
+}
+
+.mb-56px {
+    padding-bottom: 56px;
+}
+
+.mt-60px {
+    margin-top: 60px;
+}
+
+.mt-105px {
+    margin-top: 105px;
+}
+
+// Font size
+.fz-16px {
+    font-size: 16px;
+}
+
+.fz-18px {
+    font-size: 18px;
+}
+
+.fz-40px {
+    font-size: 40px;
+}
+
+// Font weight
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+// line height
+.lh-30 {
+    line-height: 30px;
+}
+
+.lh-60 {
+    line-height: 60px;
+}
+
+// Background
+.bg-app-primarydark {
+    background-color: #191C21;
+}
+
+// Rounded
+.rounded-10 {
+    border-radius: 10px;
+}
+
+// Horizontal row
+.divider {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, .3);
+    // border: 1px solid #7B7E83;
+}

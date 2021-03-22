@@ -1,0 +1,29 @@
+.get-start {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .item {
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+
+        .icon-wrapper {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            // background-color: tomato;
+        }
+
+        .item-text {
+            white-space: normal;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .item {
+            width: auto;
+        }
+    }
+}

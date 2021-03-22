@@ -1,0 +1,31 @@
+.myfooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 38px;
+}
+
+.footer-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 50%;
+
+    .link {
+        display: flex;
+        padding: 10px 0;
+        font-size: 15px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .item-header {
+        font-size: 15px;
+        font-weight: 700;
+        color: #838AA6;
+    }
+
+    @media (min-width: 992px) {
+        width: auto;
+    }
+}

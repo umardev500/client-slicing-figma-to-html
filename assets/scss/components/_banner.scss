@@ -1,0 +1,32 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 15px;
+    padding-bottom: 40px;
+    min-height: 350px;
+    background-image: url("../../assets/images/banner/banner.png");
+    background-size: cover;
+    background-position: center;
+
+    @media (min-width: 992px) {
+        min-height: 753px;
+        max-height: 753px;
+    }
+
+    .banner-content {
+        text-align: center;
+
+        .banner-separator {
+            display: inline-block;
+            background-color: #fff;
+            border-radius: 50px;
+            height: 2px;
+            width: 34px;
+        }
+
+        .btn {
+            min-width: 275px;
+        }
+    }
+}

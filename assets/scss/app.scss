@@ -1,0 +1,24 @@
+.b {
+    border: 1px solid tomato;
+}
+
+body {
+    background-color: #020612;
+    font-family: "Poppins";
+    // padding-bottom: 250px;
+    overflow-x: hidden;
+    color: #fff;
+}
+
+
+@import "utility";
+@import "helper";
+@import "components/content";
+@import "components/card";
+@import "components/btn";
+@import "components/get_start";
+@import "components/athlete_carousel";
+@import "components/footer";
+@import "components/navbar";
+@import "components/banner";
+@import "components/sidebar";

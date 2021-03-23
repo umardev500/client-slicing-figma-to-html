@@ -72,11 +72,15 @@
 }
 
 .mt-60px {
-    margin-top: 60px;
+    margin-top: 60px !important;
 }
 
 .mt-105px {
     margin-top: 105px;
+}
+
+.mt-20px {
+    margin-top: 20px;
 }
 
 .mt-25px {
@@ -92,6 +96,10 @@
 }
 
 // Font size
+.fz-15px {
+    font-size: 15px;
+}
+
 .fz-16px {
     font-size: 16px;
 }
@@ -145,4 +153,9 @@
     width: 100%;
     border: 1px solid rgba(255, 255, 255, .3);
     // border: 1px solid #7B7E83;
+}
+
+
+.nowrap {
+    white-space: nowrap;
 }

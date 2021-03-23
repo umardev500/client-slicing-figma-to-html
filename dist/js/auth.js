@@ -1,3 +1,3 @@
-var myModal = new bootstrap.Modal(document.getElementById('loginModal'));
+// var myModal = new bootstrap.Modal(document.getElementById('loginModal'));
 
-myModal.toggle();
+// myModal.toggle();

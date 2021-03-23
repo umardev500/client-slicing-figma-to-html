@@ -612,6 +612,9 @@ body {
   margin-left: -25px;
   margin-right: -25px;
 }
+.suporting li:nth-of-type(even):not(.header) .link {
+  background-color: black;
+}
 .suporting .header {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -627,9 +630,6 @@ body {
   text-decoration: none;
   padding: 10px 25px;
   height: 75px;
-}
-.suporting .link.active {
-  background-color: black;
 }
 .suporting .link .avatar {
   min-width: 55px;

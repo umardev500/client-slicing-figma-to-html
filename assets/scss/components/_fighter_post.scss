@@ -150,6 +150,13 @@
     margin-left: -25px;
     margin-right: -25px;
 
+    li:nth-of-type(even):not(.header) {
+        
+        .link {
+            background-color: black;
+        }
+    }
+
     .header {
         margin-top: 15px;
         margin-bottom: 15px;
@@ -166,10 +173,6 @@
         text-decoration: none;
         padding: 10px 25px;
         height: 75px;
-
-        &.active {
-            background-color: black;
-        }
 
         .avatar {
             min-width: 55px;

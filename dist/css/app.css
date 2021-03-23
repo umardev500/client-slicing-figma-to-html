@@ -35,6 +35,14 @@ body {
   padding-right: 10px;
 }
 
+.pl-25px {
+  padding-left: 25px;
+}
+
+.pr-25px {
+  padding-right: 25px;
+}
+
 @media (min-width: 992px) {
   .pl-lg-25px {
     padding-left: 25px;
@@ -243,6 +251,34 @@ body {
   .footer-nav {
     width: auto;
   }
+}
+
+.footer-bottom {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+  flex-wrap: wrap;
+}
+.footer-bottom .link {
+  position: relative;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.footer-bottom .link .dot {
+  display: inline-flex;
+  background-color: #fff;
+  width: 3px;
+  height: 3px;
+  border-radius: 50px;
+  margin-right: 25px;
 }
 
 .my-navbar {

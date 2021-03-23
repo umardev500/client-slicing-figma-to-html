@@ -424,4 +424,32 @@ body {
   opacity: 1;
 }
 
+.modal {
+  color: #000;
+}
+.modal .modal-title {
+  color: #000 !important;
+}
+.modal .forgot {
+  font-size: 14.5px;
+}
+
+.dark-modal .modal-content {
+  background-color: #191C21;
+}
+.dark-modal .modal-content .modal-header {
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+.dark-modal .modal-content .modal-header .btn-close {
+  color: #fff;
+}
+.dark-modal .modal-content .modal-footer {
+  border-top-color: rgba(255, 255, 255, 0.3);
+}
+.dark-modal .form-control {
+  background-color: #020612;
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
 /*# sourceMappingURL=app.css.map */

@@ -1,0 +1,34 @@
+.modal {
+    color: #000;
+    .modal-title {
+        color: #000 !important;
+    }
+
+    .forgot {
+        font-size: 14.5px;
+    }
+}
+
+.dark-modal {
+    .modal-content {
+        background-color: #191C21;
+
+        .modal-header {
+            border-bottom-color: rgba(255, 255, 255, .3);
+
+            .btn-close {
+                color: #fff;
+            }
+        }
+
+        .modal-footer {
+            border-top-color: rgba(255, 255, 255, .3);
+        }
+    }
+
+    .form-control {
+        background-color: #020612;
+        border-color: rgba(255, 255, 255, .3);
+        color: #fff;
+    }
+}

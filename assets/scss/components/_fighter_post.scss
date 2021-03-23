@@ -10,9 +10,14 @@
     height: 50px;
     padding-left: 15px;
     padding-right: 15px;
+    font-size: 15px;
 
     &:hover {
         color: #838AA6;
+    }
+
+    @media (min-width: 992px) {
+        font-size: 16px;
     }
 }
 

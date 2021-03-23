@@ -3,6 +3,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 38px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .footer-nav {
@@ -39,6 +41,8 @@
     align-items: center;
     min-height: 60px;
     flex-wrap: wrap;
+    padding-left: 25px;
+    padding-right: 25px;
 
     .link {
         position: relative;
@@ -66,6 +70,8 @@
     justify-content: flex-end;
     margin-top: 60px;
     margin-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
 
     .btn {
         background-color: transparent;

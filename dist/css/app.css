@@ -378,6 +378,9 @@ body {
 .banner .banner-content .btn {
   min-width: 275px;
 }
+.banner .banner-subtitle {
+  font-size: 20px;
+}
 
 .sidebar {
   position: fixed;

@@ -281,6 +281,18 @@ body {
   margin-right: 25px;
 }
 
+.footer-dropdown {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.footer-dropdown .btn {
+  background-color: transparent;
+  color: #fff;
+  box-shadow: none;
+}
+
 .my-navbar {
   display: flex;
   align-items: center;

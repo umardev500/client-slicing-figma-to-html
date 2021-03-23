@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../assets/bs5/css/bootstrap.min.css" />
+    <!-- Splide -->
+    <link
+      rel="stylesheet"
+      href="../assets/splide-2.4.21/dist/css/splide.min.css"
+    />
+    <link rel="stylesheet" href="../assets/owl/assets/owl.theme.default.min.css" />
+    <!-- App theme -->
+    <link rel="stylesheet" href="../dist/css/app.css" />
+    <!-- Ovs -->
+    <link rel="stylesheet" href="../assets/ovs/css/OverlayScrollbars.min.css" />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Main navbar -->
+    <nav class="main-navbar my-navbar bg-app-primarydark">
+      <div class="container d-flex align-items-center">
+        <a href="#" class="main-navbar-brand"
+          ><img src="../assets/images/logo/logo.svg" alt=""
+        /></a>
+        <button class="my-navbar-toggler ms-auto d-lg-none" id="mainNavBtn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="rgba(255, 255, 255, .8)"
+            width="25"
+            height="25"
+            viewBox="0 0 448 512"
+          >
+            <!-- Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+            <path
+              d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+            />
+          </svg>
+        </button>
+
+        <ul class="menu d-none d-lg-flex flex-grow-1 justify-content-center">
+          <li><a href="#" class="link">Stars</a></li>
+          <li><a href="#" class="link">Shop</a></li>
+          <li><a href="#" class="link">Watch</a></li>
+        </ul>
+        <ul class="menu d-none d-lg-flex justify-content-center">
+          <li>
+            <a href="#" class="link">
+              Help
+              <img
+                src="../assets/images/avatars/avatar.png"
+                alt=""
+                class="avatar ms-4"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ./main navbar -->
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="sidebar-close">
+        <button id="sidebar-button">&times;</button>
+      </div>
+
+      <ul class="sidebar-menu">
+        <li class="header">MAIN MENU</li>
+        <li><a href="#" class="link">Stars</a></li>
+        <li><a href="#" class="link">Shop</a></li>
+        <li><a href="#" class="link">Watch</a></li>
+        <li><a href="#" class="link">Help</a></li>
+      </ul>
+    </div>
+    <!-- ./sidebar -->
+
+
+    <!-- Content posts -->
+    <div class="my-container pt-50px">
+      <div class="container">
+        <div class="row" style="padding-bottom: 95px;">
+          <div class="col-lg-3 pr-lg-15px mb-4 mb-lg-0">
+            <div class="card bg-transparent">
+              <div
+                class="fighter-box-mini fighter-box-left bg-app-primarydark rounded-10 d-flex flex-column justify-content-between"
+              >
+                
+                <div class="top">
+                    <img src="../assets/images/avatars/avatar2.png" alt="avatar" class="mw-100">
+                    <p class="name">Nurullo Aliev</p>
+                </div>
+
+                <ul class="suporting">
+                    <li class="header">SUPPORTING</li>
+                    <li><a href="#" class="link active">
+                        <img class="avatar" src="../assets/images/avatars/avatar3.png" alt="avatar">
+                        Nurullo Aliev</a>
+                    </li>
+                    <li><a href="#" class="link">
+                        <img class="avatar" src="../assets/images/avatars/avatar4.png" alt="avatar">
+                        Loik Radzhabov</a>
+                    </li>
+                </ul>                
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 pl-lg-15px mb-4 mb-lg-0 d-flex">
+            <div class="box-post w-100 bg-app-primarydark rounded-10">
+                <nav class="post-nav">
+                    <ul class="">
+                        <li><a href="#" class="link">All post</a></li>
+                    </ul>
+                    <div class="dropdown">
+                        <button class="btn the-btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Showing: All Athletes   
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Item</a></li>
+                          <li><a class="dropdown-item" href="#">Item</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- loop -->
+                <div class="item">
+                    <div class="top-post">
+                        <img class="avatar" src="../assets/images/avatars/avatar.png" alt="avatar">
+                        <p class="name">Nurullo Aliev</p>
+                    </div>
+                    <img class="featured" src="../assets/images/banner/rec.png" alt="thumb">
+                    <p class="time">March 3, 2021</p>
+                    <p class="title">Nurullo Aliev camp training | episode 2</p>
+                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim iusto rerum facilis impedit, neque sapiente voluptate nostrum dolorem ex nesciunt saepe est repellat veniam sint eaque! Voluptatem non sed odio.</p>
+                </div>
+
+                <div class="item">
+                    <div class="top-post">
+                        <img class="avatar" src="../assets/images/avatars/avatar.png" alt="avatar">
+                        <p class="name">Nurullo Aliev</p>
+                    </div>
+                    <img class="featured" src="../assets/images/banner/rec.png" alt="thumb">
+                    <p class="time">March 3, 2021</p>
+                    <p class="title">Nurullo Aliev camp training | episode 2</p>
+                    <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim iusto rerum facilis impedit, neque sapiente voluptate nostrum dolorem ex nesciunt saepe est repellat veniam sint eaque! Voluptatem non sed odio.</p>
+                </div>
+                <!-- ./loop -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 pr-lg-15px mb-4 mb-lg-0">
+            <div class="card bg-transparent">
+              <div
+                class="fighter-box-mini fighter-box-right bg-app-primarydark rounded-10 d-flex flex-column justify-content-between"
+              >
+
+              <p class="mb-0 fz-18px fw-600">Find Athletes you love</p> 
+
+              <div class="divider" style="margin-top: 20px;"></div>
+              <p class="subtitle">Search your favorite Athletes to find them the need your support.</p>
+
+              <a href="#" class="the-btn" style="margin-top: 20px;">FIND ATHELTES</a>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+         
+    
+
+      <!-- Divider -->
+      <div class="divider"></div>
+
+      <div class="content">
+        <div class="myfooter">
+          <ul class="footer-nav mb-lg-0 mb-4">
+            <li class="item-header">Explore</li>
+            <li class="item"><a href="#" class="link">Athletes</a></li>
+            <li class="item"><a href="#" class="link">Shop</a></li>
+            <li class="item"><a href="#" class="link">Watch</a></li>
+          </ul>
+          <ul class="footer-nav mb-lg-0 mb-4">
+            <li class="item-header">About</li>
+            <li class="item"><a href="#" class="link">Who we are</a></li>
+            <li class="item"><a href="#" class="link">Career</a></li>
+            <li class="item"><a href="#" class="link">News</a></li>
+          </ul>
+          <ul class="footer-nav mb-lg-0 mb-4">
+            <li class="item-header">Social</li>
+            <li class="item">
+              <a href="#" class="link">
+                <img
+                  src="../assets/images/icons/ig.png"
+                  alt="ig"
+                  width="20"
+                  height="20"
+                  class="me-2"
+                />
+                Instagram
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">
+                <img
+                  src="../assets/images/icons/yt.png"
+                  alt="ig"
+                  width="20"
+                  height="20"
+                  class="me-2"
+                />
+                Youtube
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link">
+                <img
+                  src="../assets/images/icons/fb.png"
+                  alt="ig"
+                  width="20"
+                  height="20"
+                  class="me-2"
+                />
+                Facebook
+              </a>
+            </li>
+          </ul>
+          <ul class="footer-nav mb-lg-0 mb-4">
+            <li class="item-header">Join Us</li>
+            <li class="item">
+              <a href="#" class="link">
+                <a
+                  href="#"
+                  style="
+                    min-width: 190px;
+                    background: #3b414a;
+                    border-color: #3b414a;
+                  "
+                  data-bs-toggle="modal" data-bs-target="#loginModal"
+                  class="btn btn-secondary btn-lg fw-bold fz-16px btn-1 d-none d-lg-flex align-items-center justify-content-center rounded-pill"
+                  >SUBSCRIBE NOW</a
+                >
+
+                <a
+                  href="#"
+                  style="
+                    background: #3b414a;
+                    border-color: #3b414a;
+                    white-space: nowrap;
+                  "
+                  class="btn btn-secondary btn-lg fw-bold fz-16px btn-1 d-lg-none d-flex align-items-center justify-content-center rounded-pill"
+                  >SUBSCRIBE NOW</a
+                >
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-dropdown">
+          <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="../assets/images/icons/usa.png" alt="usa">
+              English
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#"><img src="../assets/images/icons/usa.png" alt="usa"> Indonesia</a></li>
+              <li><a class="dropdown-item" href="#"><img src="../assets/images/icons/usa.png" alt="usa"> Germany</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+        <ul class="footer-bottom">
+          <li>
+            <a href="#" class="link ps-0 pr-25px"> Terms & Conditions </a>
+          </li>
+          <li>
+            <a href="#" class="link pr-25px">
+              <span class="dot dot-right"></span>
+              Privacy & Policy</a
+            >
+          </li>
+          <li>
+            <a href="#" class="link"
+              ><span class="dot dot-right"></span> Help & Support</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- <div class="sidebar-overlay"></div> -->
+
+    <!-- Login modal -->
+    <div class="modal fade" id="loginModal"data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="loginModalLabel">Signin</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <input class="form-control" type="text" placeholder="Type username here">
+            </div>
+            <div class="mb-3">
+              <input class="form-control" type="text" placeholder="Password">
+            </div>
+            <p class="forgot">Forgot password <a href="" class="link-success">click here</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signup modal -->
+    <div class="modal fade" id="signupModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="signupModalLabel">Signup</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <input class="form-control" type="text" placeholder="Steve Olson">
+            </div>
+            <div class="mb-3">
+              <input class="form-control" type="text" placeholder="anony@domain.com">
+            </div>
+            <div class="mb-3">
+              <input class="form-control" type="password" placeholder="Password">
+            </div>
+            <div class="mb-3">
+              <input class="form-control" type="number" placeholder="Phone">
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" name="gender" type="radio" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Male
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" name="gender" type="radio" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault"">
+                Female
+              </label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../assets/popper.min.js"></script>
+    <script src="../assets/bs5/js/bootstrap.min.js"></script>
+    <!-- <script src="dist/js/auth.js"></script> -->
+    <script src="../assets/ovs/js/OverlayScrollbars.min.js"></script>
+    <!-- <script src="assets/splide-2.4.21/dist/js/splide.min.js"></script> -->
+    <script src="../dist/js/sidebar.js"></script>
+    <!-- <script>
+      new Splide(".splide", {
+        type: "loop",
+        perPage: 4,
+        perMove: 1,
+        pagination: false,
+        rewind: true,
+        breakpoints: {
+          992: {
+            perPage: 1,
+            gap: "1rem",
+          },
+        },
+      }).mount();
+    </script> -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            OverlayScrollbars(document.querySelector('body'), { });
+        });
+    </script>
+
+  </body>
+</html>

@@ -13,6 +13,12 @@
             text-decoration: none;
             color: #fff;
             padding: 0 25px;
+
+            .avatar {
+                border-radius: 50px;
+                max-width: 69px;
+                max-height: 69px;
+            }
         }
     }
 }

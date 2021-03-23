@@ -511,15 +511,11 @@ body {
   height: 50px;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 15px;
+  font-size: 16px;
+  white-space: nowrap;
 }
 .the-btn:hover {
   color: #838AA6;
-}
-@media (min-width: 992px) {
-  .the-btn {
-    font-size: 16px;
-  }
 }
 
 .box-post {
@@ -533,6 +529,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .box-post .post-nav ul {
   margin: 0;
@@ -546,6 +543,22 @@ body {
   color: #fff;
   text-decoration: none;
   height: 90px;
+}
+.box-post .post-nav .dropdown {
+  width: 100%;
+}
+.box-post .post-nav .dropdown .the-btn {
+  width: 100%;
+  margin-bottom: 30px;
+}
+@media (min-width: 992px) {
+  .box-post .post-nav .dropdown {
+    width: auto;
+  }
+  .box-post .post-nav .dropdown .the-btn {
+    width: auto;
+    margin-bottom: 0;
+  }
 }
 .box-post .item {
   border-bottom: 2px solid rgba(255, 255, 255, 0.3);
@@ -657,6 +670,16 @@ body {
   min-height: 55px;
   border-radius: 50px;
   margin-right: 15px;
+}
+
+.dropdown-dark {
+  background-color: #3B414A;
+}
+.dropdown-dark .dropdown-item {
+  color: #fff;
+}
+.dropdown-dark .dropdown-item:hover {
+  background-color: #020612;
 }
 
 /*# sourceMappingURL=app.css.map */

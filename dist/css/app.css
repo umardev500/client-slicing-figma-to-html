@@ -521,6 +521,7 @@ body {
 }
 .box-post .item:last-child {
   border-bottom: none;
+  margin-bottom: 0;
 }
 .box-post .top-post {
   display: flex;

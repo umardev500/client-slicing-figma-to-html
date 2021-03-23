@@ -60,6 +60,10 @@ body {
     padding-right: 15px;
   }
 }
+.mt-15px {
+  margin-top: 15px;
+}
+
 .mt-19px {
   margin-top: 19px;
 }
@@ -70,6 +74,10 @@ body {
 
 .mt-122px {
   margin-top: 122px;
+}
+
+.mt-154px {
+  margin-top: 154px;
 }
 
 .mt-51px {
@@ -102,6 +110,10 @@ body {
 
 .mt-40px {
   margin-top: 40px;
+}
+
+.fz-12px {
+  font-size: 12px;
 }
 
 .fz-15px {
@@ -138,6 +150,10 @@ body {
 
 .lh-60 {
   line-height: 60px;
+}
+
+.lh-90 {
+  line-height: 90px;
 }
 
 .bg-app-primarydark {
@@ -251,8 +267,14 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 38px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+@media (min-width: 992px) {
+  .myfooter {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
 
 .footer-nav {
@@ -721,6 +743,99 @@ body {
 .form-control-dark.form-check-input {
   background-color: #323739;
   border-color: #323739;
+}
+
+.container-1 {
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.container-1 input {
+  height: 50px;
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+  padding-left: 21px;
+  padding-right: 21px;
+  margin-top: 37px;
+}
+.container-1 input:focus {
+  border: none;
+  box-shadow: none;
+  outline: 0;
+}
+.container-1 .heading-1 {
+  font-size: 40px;
+  line-height: 60px;
+}
+@media (min-width: 992px) {
+  .container-1 {
+    width: 94%;
+  }
+  .container-1 .heading-1 {
+    font-size: 60px;
+    line-height: 90px;
+  }
+}
+
+.faq {
+  padding-top: 101px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.faq .faq-list .item {
+  background-color: #3B414A;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
+  height: auto;
+}
+.faq .faq-list .item:not(:last-child) {
+  margin-bottom: 25px;
+}
+.faq .faq-list .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 86px;
+  border-radius: 10px;
+}
+.faq .faq-list .header .title {
+  font-size: 16px;
+  margin-bottom: 0;
+  font-smoothing: "Poppins";
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 24px;
+}
+.faq .faq-list .header .collapse-btn {
+  width: 48px;
+  min-width: 48px;
+  height: 48px;
+  min-height: 48px;
+  background-color: #000;
+  border-radius: 50px;
+  background-image: url("../../assets/images/icons/down.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.faq .faq-list .header .collapse-btn[aria-expanded=true] {
+  transform: rotate(-180deg);
+}
+.faq .faq-list .body {
+  padding-bottom: 25px;
+}
+@media (min-width: 992px) {
+  .faq {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+.img-proporsional {
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=app.css.map */

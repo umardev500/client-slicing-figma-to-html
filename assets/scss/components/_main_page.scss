@@ -1,0 +1,99 @@
+.container-1 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    input {
+        height: 50px;
+        width: 100%;
+        border-radius: 50px;
+        border: none;
+        padding-left: 21px;
+        padding-right: 21px;
+        margin-top: 37px;
+
+        &:focus {
+            border: none;
+            box-shadow: none;
+            outline: 0;
+        }
+    }
+
+    .heading-1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    @media (min-width: 992px) {
+        width: 94%;
+
+        .heading-1 {
+            font-size: 60px;
+            line-height: 90px;
+        }
+    }
+}
+
+.faq {
+    padding-top: 101px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    .faq-list {
+        .item {
+            background-color: #3B414A;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 10px;
+            height: auto;
+        }
+
+        .item:not(:last-child) {
+            margin-bottom: 25px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 86px;
+            border-radius: 10px;
+
+            .title {
+                font-size: 16px;
+                margin-bottom: 0;
+                font-smoothing: "Poppins";
+                padding-top: 15px;
+                padding-bottom: 15px;
+                line-height: 24px;
+            }
+
+            .collapse-btn {
+                width: 48px;
+                min-width: 48px;
+                height: 48px;
+                min-height: 48px;
+                background-color: #000;
+                border-radius: 50px;
+                background-image: url("../../assets/images/icons/down.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                cursor: pointer;
+                transition: all .5s;
+
+                &[aria-expanded="true"] {
+                    transform: rotate(-180deg);
+                }
+            }
+        }
+
+        .body {
+            padding-bottom: 25px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

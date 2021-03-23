@@ -682,4 +682,43 @@ body {
   background-color: #020612;
 }
 
+.modal-dark {
+  color: #fff;
+}
+.modal-dark .modal-content {
+  background-color: #191C21;
+}
+.modal-dark .modal-content .modal-title {
+  color: white !important;
+}
+.modal-dark .modal-content .modal-header {
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+.modal-dark .modal-content .modal-header .close {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 20px;
+}
+.modal-dark .modal-content .modal-header .close:hover {
+  color: #fff;
+}
+.modal-dark .modal-content .modal-footer {
+  border-top-color: rgba(255, 255, 255, 0.3);
+}
+
+.form-control-dark {
+  background-color: #323739;
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.7);
+}
+.form-control-dark:focus {
+  background-color: #323739;
+  color: rgba(255, 255, 255, 0.7);
+}
+.form-control-dark.form-check-input {
+  background-color: #323739;
+  border-color: #323739;
+}
+
 /*# sourceMappingURL=app.css.map */

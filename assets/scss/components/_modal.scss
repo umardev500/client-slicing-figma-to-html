@@ -1,0 +1,31 @@
+.modal-dark {
+    color: #fff;
+    .modal-content {
+        background-color: #191C21;
+        // background-color: #3B414A;
+        // background-color: #191C21;
+
+        .modal-title {
+            color: rgba(255, 255, 255, 1) !important;
+        }
+
+        .modal-header {
+            border-bottom-color: rgba(255, 255, 255, .3);
+
+            .close {
+                background-color: transparent;
+                color: rgba(255, 255, 255, .7);
+                border: none;
+                font-size: 20px;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+
+        .modal-footer {
+            border-top-color: rgba(255, 255, 255, .3);
+        }
+    }
+}

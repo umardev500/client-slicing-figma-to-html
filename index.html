@@ -537,43 +537,45 @@
     </div>
 
     <!-- Signup modal -->
-    <div class="modal fade" id="signupModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal modal-dark fade" id="signupModal" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-sm">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="signupModalLabel">Signup</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="mb-3">
-              <input class="form-control" type="text" placeholder="Steve Olson">
+          <form>
+            <div class="modal-header">
+              <h5 class="modal-title" id="signupModalLabel">Signup</h5>
+              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">&times;</button>
             </div>
-            <div class="mb-3">
-              <input class="form-control" type="text" placeholder="anony@domain.com">
+            <div class="modal-body">
+              <div class="mb-3">
+                <input class="form-control form-control-dark" type="text" placeholder="Steve Olson">
+              </div>
+              <div class="mb-3">
+                <input class="form-control form-control-dark" type="text" placeholder="anony@domain.com">
+              </div>
+              <div class="mb-3">
+                <input class="form-control form-control-dark" type="password" placeholder="Password">
+              </div>
+              <div class="mb-3">
+                <input class="form-control form-control-dark" type="text" placeholder="Phone">
+              </div>
+              <div class="form-check">
+                <input class="form-check-input form-control-dark" name="gender" type="radio" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Male
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input form-control-dark" name="gender" type="radio" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"">
+                  Female
+                </label>
+              </div>
             </div>
-            <div class="mb-3">
-              <input class="form-control" type="password" placeholder="Password">
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-danger bg-redprimary">Submit</button>
             </div>
-            <div class="mb-3">
-              <input class="form-control" type="number" placeholder="Phone">
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" name="gender" type="radio" value="" id="flexCheckDefault">
-              <label class="form-check-label" for="flexCheckDefault">
-                Male
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" name="gender" type="radio" value="" id="flexCheckDefault">
-              <label class="form-check-label" for="flexCheckDefault"">
-                Female
-              </label>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Submit</button>
-          </div>
+          </form>
         </div>
       </div>
     </div>

@@ -1,0 +1,15 @@
+.form-control-dark {
+    background-color: #323739;
+    border-color: transparent;
+    color: rgba(255, 255, 255, .7);
+
+    &:focus {
+        background-color: #323739;
+        color: rgba(255, 255, 255, .7);
+    }
+
+    &.form-check-input {
+        background-color: #323739;
+        border-color: #323739;
+    }
+}

@@ -38,7 +38,7 @@
     display: flex;
     background-color: #191C21;
     height: 88px;
-    overflow-x: hidden;
+    overflow-x: auto;
 
     .link {
         display: flex;
@@ -52,8 +52,4 @@
         }
     }
     
-    &:hover,
-    &:focus {
-        overflow-x: auto;
-    }
 }

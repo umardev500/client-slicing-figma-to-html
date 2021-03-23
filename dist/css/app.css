@@ -330,7 +330,7 @@ body {
   display: flex;
   background-color: #191C21;
   height: 88px;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 .secondary-navbar .link {
   display: flex;
@@ -342,9 +342,6 @@ body {
 }
 .secondary-navbar .link.active {
   border-bottom: 2px solid #EA0A0A;
-}
-.secondary-navbar:hover, .secondary-navbar:focus {
-  overflow-x: auto;
 }
 
 .banner {

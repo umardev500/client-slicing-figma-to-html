@@ -36,8 +36,8 @@
 
 .faq {
     padding-top: 101px;
-    padding-left: 12px;
-    padding-right: 12px;
+    // padding-left: 12px;
+    // padding-right: 12px;
 
     .faq-list {
         .item {
@@ -95,5 +95,118 @@
     @media (min-width: 992px) {
         padding-left: 25px;
         padding-right: 25px;
+    }
+}
+
+.announcement-card {
+    background-color: #fff;
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 17px;
+        font-family: "Roboto";
+
+        .avatar {
+            margin-right: 12px;
+            max-height: 44px;
+            max-width: 44px;
+        }
+
+        .name {
+            font-size: 15px;
+            color: #000;
+        }
+
+        .location {
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            color: #AAAAAA;
+
+            .icon {
+                margin-right: 5px;
+            }
+        }
+
+        .icon-right {
+            max-width: 22px;
+            max-height: 22px;
+        }
+    }
+
+    .body {
+        color: #aaa;
+        font-weight: 300;
+        font-size: 12px;
+        padding: 15px;
+        line-height: 20px;
+        font-family: "Roboto";
+    }
+}
+
+.exlusive {
+    padding-top: 165px;
+    padding-bottom: 198px;
+
+    .exlusive-nav {
+        display: flex;
+        margin-bottom: 25px;
+        margin-top: 90px;
+        border-bottom: 1.5px solid #404040;
+
+        ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li:not(:last-child) {
+                .link {
+                    margin-right: 27px;
+
+                    @media (min-width: 992px) {
+                        margin-right: 150px;
+                    }
+                }
+            }
+
+            .link {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                font-size: 21px;
+                color: #fff;
+                height: 56px;
+                white-space: nowrap;
+
+                .avatar {
+                    max-width: 30px;
+                    max-height: 30px;
+                    border-radius: 50px;
+                    margin-right: 15px;
+                }
+
+                &.active {
+                    border-bottom: 2px solid #D8D8D8;
+                }
+            }
+        }
+    }
+}
+
+.splide-ex {
+    .splide__arrow {
+        margin-top: -9%;
+    }
+}
+
+#arrowSplide {
+    // display: none;
+
+    @media (min-width: 992px) {
+        display: unset;
+        margin-top: -300px !important;
     }
 }

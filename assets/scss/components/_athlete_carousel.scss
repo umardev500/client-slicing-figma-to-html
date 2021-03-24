@@ -12,11 +12,49 @@
         width: 100%;
         padding-left: 13.5px;
         padding-right: 13.5px;
+        position: relative;
 
         img {
             // min-height: 476px;
             object-fit: cover;
             border-radius: 10px;
+        }
+
+        .popup {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-color: #fff;
+            padding: 25px;
+            color: #000;
+            max-width: 523px;
+            margin-top: -50px;
+            margin-left: 15px;
+            margin-right: 15px;
+            position: relative;
+            z-index: 1050;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(255, 255, 255, .5);
+            margin-bottom: 55px;
+
+            .title {
+                font-size: 24px;
+                line-height: 30px;
+                color: #161616;
+            }
+
+            .subtitle {
+                color: #929292;
+                font-size: 18px;
+            }
+
+
+            @media (min-width: 992px) {
+                min-width: 520px;
+                margin-left: 6%;
+                margin-right: 65px;
+                min-height: 168px;
+            }
         }
     }
 

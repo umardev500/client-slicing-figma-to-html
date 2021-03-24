@@ -840,7 +840,7 @@ body {
 .faq .faq-list .header .title {
   font-size: 16px;
   margin-bottom: 0;
-  font-smoothing: "Poppins";
+  font-family: "Poppins";
   padding-top: 15px;
   padding-bottom: 15px;
   line-height: 24px;

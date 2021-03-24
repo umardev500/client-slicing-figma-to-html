@@ -414,6 +414,9 @@ body {
   max-width: 69px;
   max-height: 69px;
 }
+.my-navbar .menu .link:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
 
 .my-navbar-toggler {
   width: 50px;
